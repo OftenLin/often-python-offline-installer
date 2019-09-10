@@ -33,7 +33,7 @@
 	
 	* 並記得去修改 [install.bat](./install.bat) 的 [指定安裝路徑](https://github.com/OftenLin/python_offline_installer/blob/cf3e38db1c9ae9899fb3250c9067205d5fb41930/install.bat#L10) 成該環境下相對應 Python 版本的路徑 
 	
->     * Ex: 若為 Python 3.7 版，就將 [install.bat](./install.bat) 中的 set install_folder=%~dp0material\3.6 改成 set install_folder=%~dp0material\3.7 
+>     * Ex: 若為 Python 3.7 版，就將 install.bat 中的 set install_folder=%~dp0material\3.6 改成 set install_folder=%~dp0material\3.7 
 	
 	
 5. 下載完成後到資料夾 offline_install 執行 [install.bat](./install.bat) 可開始在離線環境下執行套件安裝
